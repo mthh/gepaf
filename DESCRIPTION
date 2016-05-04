@@ -1,7 +1,7 @@
 Package: gepaf
 Type: Package
 Title: Google Encoded Polyline Algorithm Format
-Version: 0.1.0
+Version: 0.1.0.9000
 Date: 2016-05-03
 Authors@R: c(person("Matthieu", "Viry", email = "matthieu.viry@ums-riate.fr",role = c("aut")),person("Timothée", "Giraud", email = "timothee.giraud@ums-riate.fr", role = c("ctb","cre")))
 Description: Encode and decode the Google Encoded Polyline Algorithm Format (<https://developers.google.com/maps/documentation/utilities/polylinealgorithm>).
