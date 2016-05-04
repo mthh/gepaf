@@ -2,8 +2,8 @@ Package: gepaf
 Type: Package
 Title: Google Encoded Polyline Algorithm Format
 Version: 0.1.0
-Date: 2016-05-02
-Authors@R: c(person("Matthieu", "Viry", role = c("aut")), person("Timothée", "Giraud", email = "timothee.giraud@ums-riate.fr", role = c("ctb","cre")))
+Date: 2016-05-03
+Authors@R: c(person("Matthieu", "Viry", email = "matthieu.viry@ums-riate.fr",role = c("aut")),person("Timothée", "Giraud", email = "timothee.giraud@ums-riate.fr", role = c("ctb","cre")))
 Description: Encode and decode the Google Encoded Polyline Algorithm
     Format (<https://developers.google.com/maps/documentation/utilities/
     polylinealgorithm>).
@@ -11,7 +11,7 @@ License: GPL-3
 LazyData: TRUE
 Imports:
     bitops
-URL: https://github.com/rCarto/gepaf
-BugReports: https://github.com/rCarto/gepaf/issues
+URL: https://github.com/mthh/gepaf
+BugReports: https://github.com/mthh/gepaf/issues
 RoxygenNote: 5.0.1
 Encoding: UTF-8
