@@ -24,4 +24,3 @@ coords <- data.frame(lat = c(38.5, 40.7, 43.252),
 encpoly <- encodePolyline(coords)
 encpoly
 }
-

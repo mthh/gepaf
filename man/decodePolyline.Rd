@@ -21,4 +21,3 @@ Decode a Google polyline to a data frame of coordinates.
 coords <- decodePolyline(enc_polyline = "_p~iF~ps|U_ulLnnqC_mqNvxq`@")
 coords
 }
-

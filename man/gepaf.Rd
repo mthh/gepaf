@@ -18,4 +18,3 @@ implementations such as \href{https://www.npmjs.com/package/polyline}{Node.js Ma
 \seealso{
 \link{encodePolyline}, \link{decodePolyline}.
 }
-

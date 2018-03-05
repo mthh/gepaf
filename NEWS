@@ -1,0 +1,6 @@
+gepaf version 0.1.1 (Release date: 2018-03-05)
+==============
+
+Minor Changes:
+
+- bug fix in encodePolyline.
