@@ -31,7 +31,7 @@ encodePolyline <- function(df_coords, factor = 5){
 enc_coord <- function(coord, factor){
   output <- ""
   pt <- round(coord * factor, digits = 0) * 2
-  if(coord < 0) pt <- bitops::bitFlip(pt)
+  if(pt < 0) pt <- bitops::bitFlip(pt)
   while(pt >= 0x20){
     output <- paste0(output,
                      intToUtf8(bitops::bitOr(0x20, bitops::bitAnd(pt, 0x1f)) + 63))
