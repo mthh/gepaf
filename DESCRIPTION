@@ -19,6 +19,8 @@ Description: Encode and decode the Google Encoded Polyline Algorithm Format.
 License: GPL-3
 Imports:
     bitops
+Suggests: 
+    tinytest
 URL: https://github.com/mthh/gepaf
 BugReports: https://github.com/mthh/gepaf/issues
 RoxygenNote: 7.3.2
