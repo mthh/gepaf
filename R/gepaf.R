@@ -52,8 +52,9 @@ enc_coord <- function(coord, factor){
 #' @export
 decodePolyline <- function(enc_polyline, factor = 5) {
   factor <- 10^factor
-  if(class(enc_polyline) != "character") stop("Wrong encoded string format")
-
+  if(!inherits(enc_polyline, "character")) {
+    stop("enc_polyline should be a character string", call. = FALSE)
+  }
   len <- nchar(enc_polyline)
   enc_polyline <- strsplit(enc_polyline, '')[[1]]
 
