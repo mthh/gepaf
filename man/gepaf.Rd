@@ -2,8 +2,8 @@
 % Please edit documentation in R/package.R
 \docType{package}
 \name{gepaf}
-\alias{gepaf}
 \alias{gepaf-package}
+\alias{gepaf}
 \title{Google Encoded Polyline Algorithm Format}
 \description{
 Encode and decode the Google Encoded Polyline Algorithm Format.\cr
@@ -11,10 +11,19 @@ See the documentation here:\cr
 \url{https://developers.google.com/maps/documentation/utilities/polylinealgorithm}.
 }
 \note{
-Mostly a translation of \url{http://github.com/mthh/polyline_ggl/} (itself a
+Mostly a translation of \url{https://github.com/mthh/polyline_ggl/} (itself a
 modest translation (i.g no GeoJSON wrapper, etc.) of other well known available
 implementations such as \href{https://www.npmjs.com/package/polyline}{Node.js Mapbox} one).
 }
 \seealso{
 \link{encodePolyline}, \link{decodePolyline}.
+}
+\author{
+\strong{Maintainer}: Timothée Giraud \email{timothee.giraud@cnrs.fr} (\href{https://orcid.org/0000-0002-1932-3323}{ORCID}) [contributor]
+
+Authors:
+\itemize{
+  \item Matthieu Viry \email{matthieu.viry@cnrs.fr} (\href{https://orcid.org/0000-0002-0693-8556}{ORCID})
+}
+
 }
