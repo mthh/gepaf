@@ -1,14 +1,17 @@
 library(microbenchmark)
-
 library(mapsf)
 library(sf)
+library(gepaf)
 m <- mf_get_mtq()
 m <- st_transform(m, "EPSG:4326")
 xx <- st_coordinates(m)
-df <- data.frame(lon = xx[,1], lat = xx[,2])
+df <- data.frame(lat = round(xx[1:1000,2], 5), lon = round(xx[1:1000,1], 5))
+poly <- encodePolyline(df)
 
-mb <- microbenchmark(encode10 = encodePolyline(df[1:10, ]),
-                     encode100 = encodePolyline(df[1:100, ]),
-                     encode1000 = encodePolyline(df[1:1000, ]))
+microbenchmark(
+  encode = encodePolyline(df),
+  decode = decodePolyline(poly),
+  times = 100)
 
-plot(mb, log = "y")
+
+

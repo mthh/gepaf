@@ -13,6 +13,7 @@
 #' encpoly
 #' @export
 encodePolyline <- function(df_coords, factor = 5){
+  df_coords <-  as.matrix(df_coords)
   factor <- 10^factor
   dims <- dim(df_coords)[1]
   output_string <- paste0(enc_coord(df_coords[1, 1], factor = factor),
@@ -60,10 +61,10 @@ decodePolyline <- function(enc_polyline, factor = 5) {
 
   idx <- 1
   res_idx <- 0
-  lat = lon = 0
+  lat <- lon <- 0
   changes <- list(NULL, NULL)
   pairs_points <- matrix(nrow = 0, ncol = 2)
-
+  l <- list()
   while(idx <= len) {
     for(u in c(1, 2)){
       shift = result = 0
@@ -82,9 +83,9 @@ decodePolyline <- function(enc_polyline, factor = 5) {
     lat <- lat + changes[[1]]
     lon <- lon + changes[[2]]
     res_idx <- res_idx + 1
-    pairs_points <- rbind(pairs_points, c(lat, lon)/factor)
+    l[[res_idx]] <- c(lat, lon)
   }
-  coords <- data.frame(pairs_points)
+  coords <- data.frame(do.call(rbind, l) / factor)
   names(coords) <- c('lat', 'lon')
   return(coords)
 }
