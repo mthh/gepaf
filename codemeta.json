@@ -1,0 +1,80 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "gepaf",
+  "description": "Encode and decode the Google Encoded Polyline Algorithm Format. See <https://developers.google.com/maps/documentation/utilities/polylinealgorithm> for more information.",
+  "name": "gepaf: Google Encoded Polyline Algorithm Format",
+  "codeRepository": "https://github.com/mthh/gepaf",
+  "issueTracker": "https://github.com/mthh/gepaf/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.2.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.4.1 (2024-06-14)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Matthieu",
+      "familyName": "Viry",
+      "email": "matthieu.viry@cnrs.fr",
+      "@id": "https://orcid.org/0000-0002-0693-8556"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Timothée",
+      "familyName": "Giraud",
+      "email": "timothee.giraud@cnrs.fr",
+      "@id": "https://orcid.org/0000-0002-1932-3323"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Timothée",
+      "familyName": "Giraud",
+      "email": "timothee.giraud@cnrs.fr",
+      "@id": "https://orcid.org/0000-0002-1932-3323"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "tinytest",
+      "name": "tinytest",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tinytest"
+    }
+  ],
+  "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "bitops",
+      "name": "bitops",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=bitops"
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "8.795KB"
+}

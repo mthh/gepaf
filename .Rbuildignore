@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^README\.Rmd$
 ^microbench\.R$
+^CITATION\.cff$
+^codemeta\.json$

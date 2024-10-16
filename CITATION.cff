@@ -1,0 +1,63 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "gepaf" in publications use:'
+type: software
+license: GPL-3.0-only
+title: 'gepaf: Google Encoded Polyline Algorithm Format'
+version: 0.2.0
+doi: 10.32614/CRAN.package.gepaf
+abstract: Encode and decode the Google Encoded Polyline Algorithm Format. See <https://developers.google.com/maps/documentation/utilities/polylinealgorithm>
+  for more information.
+authors:
+- family-names: Viry
+  given-names: Matthieu
+  email: matthieu.viry@cnrs.fr
+  orcid: https://orcid.org/0000-0002-0693-8556
+- family-names: Giraud
+  given-names: Timothée
+  email: timothee.giraud@cnrs.fr
+  orcid: https://orcid.org/0000-0002-1932-3323
+repository: https://CRAN.R-project.org/package=gepaf
+repository-code: https://github.com/mthh/gepaf
+url: https://github.com/mthh/gepaf
+contact:
+- family-names: Giraud
+  given-names: Timothée
+  email: timothee.giraud@cnrs.fr
+  orcid: https://orcid.org/0000-0002-1932-3323
+references:
+- type: software
+  title: bitops
+  abstract: 'bitops: Bitwise Operations'
+  notes: Imports
+  url: https://github.com/mmaechler/R-bitops
+  repository: https://CRAN.R-project.org/package=bitops
+  authors:
+  - family-names: Dutky
+    given-names: Steve
+    email: sdutky@terpalum.umd.edu
+  - family-names: Maechler
+    given-names: Martin
+    email: maechler@stat.math.ethz.ch
+    orcid: https://orcid.org/0000-0002-8685-9910
+  year: '2024'
+  doi: 10.32614/CRAN.package.bitops
+- type: software
+  title: tinytest
+  abstract: 'tinytest: Lightweight and Feature Complete Unit Testing Framework'
+  notes: Suggests
+  url: https://github.com/markvanderloo/tinytest
+  repository: https://CRAN.R-project.org/package=tinytest
+  authors:
+  - family-names: Loo
+    given-names: Mark
+    name-particle: van der
+    email: mark.vanderloo@gmail.com
+    orcid: https://orcid.org/0000-0002-9807-4686
+  year: '2024'
+  doi: 10.32614/CRAN.package.tinytest
+
