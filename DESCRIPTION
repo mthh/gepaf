@@ -21,7 +21,7 @@ Imports:
     bitops
 Suggests: 
     tinytest
-URL: https://github.com/mthh/gepaf
-BugReports: https://github.com/mthh/gepaf/issues
+URL: https://github.com/riatelab/gepaf
+BugReports: https://github.com/riatelab/gepaf/issues
 RoxygenNote: 7.3.2
 Encoding: UTF-8

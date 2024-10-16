@@ -46,7 +46,7 @@ coords
 
 
 ## References :
-Mostly a translation of http://github.com/mthh/polyline_ggl/ (itself a modest translation (i.g no GeoJSON wrapper, etc.) of other well known available implementations such as [Node.js Mapbox](https://www.npmjs.com/package/polyline) one)
+Mostly a translation of https://github.com/mthh/polyline_ggl/ (itself a modest translation of other well known available implementations such as [Node.js Mapbox](https://www.npmjs.com/package/polyline) one)
 
 ## Alternative
 - [`googlePolylines`](https://CRAN.R-project.org/package=googlePolylines)
